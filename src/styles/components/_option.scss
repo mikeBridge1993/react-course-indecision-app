@@ -1,0 +1,25 @@
+.option {
+  display: flex;
+  border-bottom: 1px solid lighten($light-blue, 10%);
+  justify-content: space-between;
+  padding: $m-size $m-size;
+  word-break: break-all;
+}
+
+.option__text{
+ color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  max-width: 45rem;
+  @media (max-width: $break-small) {
+    max-width: 30rem;
+  }
+}
+
+.option__number{
+  color: lightslategrey;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+

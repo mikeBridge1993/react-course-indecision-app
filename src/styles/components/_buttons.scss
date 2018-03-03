@@ -1,0 +1,51 @@
+//Big Button
+.big-button{
+  background:$purple; 
+  border: none;
+  border-bottom: .6rem solid darken($purple, 10%);
+  color: white;
+  font-weight: bold;
+  font-size: $l-size;
+  width: 100%;
+  margin-bottom: $l-size;
+  padding: 2.4rem;
+}
+
+.big-button:disabled{
+    opacity: 0.5;
+}
+
+//Small Buttons
+.button{
+  background:$purple; 
+  border: none;
+  border-bottom: .3rem solid darken($purple, 10%);
+  color: white;
+  font-weight: 500;
+  font-size: $m-size;
+  padding: $s-size;
+}
+
+.button--link {
+  background: none;
+  padding:0;
+  font-size: $m-size;
+  color: $off-white;
+}
+
+.button--link:hover {
+  color:darken(white, 10%); 
+}
+
+//Delete Button
+.delete-button{
+  background: none;
+  border: none;
+}
+
+.delete-button--icon{
+    color: $purple;
+    &:hover {
+      color: darken($purple, 30%);;
+  }
+}
